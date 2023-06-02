@@ -17,6 +17,7 @@ class CreateSertifikatTable extends Migration
             $table->id();
             $table->string('nim');
             $table->string('nama');
+            $table->string('email');
             $table->string('foto_bukti');
             $table->timestamps();
         });
