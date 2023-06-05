@@ -57,7 +57,7 @@
 			//$this->form[] = ['label'=>'Nim','name'=>'nim','type'=>'text','validation'=>'required|min:1|max:255','width'=>'col-sm-10'];
 			//$this->form[] = ['label'=>'Tanggal','name'=>'tanggal','type'=>'date','validation'=>'required|date','width'=>'col-sm-10'];
 			//$this->form[] = ['label'=>'Waktu Mulai','name'=>'waktu_mulai','type'=>'time','validation'=>'required|date_format:H:i:s','width'=>'col-sm-10'];
-			//$this->form[] = ['label'=>'Waktu Selesai','name'=>'id','type'=>'time','validation'=>'required','width'=>'col-sm-9','style'=>'<p style="color: blue; font-weight: bold; text-decoration: underline;">Teks dengan gaya biru, tebal, dan garis bawah</p>'];
+			//$this->form[] = ['label'=>'Waktu Selesai','name'=>'id','type'=>'time','validation'=>'required','width'=>'col-sm-9'];
 			//$this->form[] = ['label'=>'Surah Mulai','name'=>'surah_mulai','type'=>'textarea','validation'=>'required|string|min:5|max:5000','width'=>'col-sm-10'];
 			//$this->form[] = ['label'=>'Surah Selesai','name'=>'id','type'=>'textarea','validation'=>'required','width'=>'col-sm-9'];
 			//$this->form[] = ['label'=>'Ayat Mulai','name'=>'ayat_mulai','type'=>'number','validation'=>'required|integer|min:0','width'=>'col-sm-10'];
