@@ -51,7 +51,7 @@ System ini dibuat untuk mempermudah mahasiswa dalam proses mengaji sampai dengan
         ```
  9. setelah itu maka impor database dibawah
     
-    data base: https://drive.google.com/file/d/1odOXfftaGC7OVd3p5gCMFCdugh-NjIBP/view?usp=drive_link
+    data base: https://drive.google.com/file/d/1GHQkOPiG4CcjCRuhfxpX-5yxGP7rm88b/view?usp=sharing
     
     data base tersebut berisikan data-data seperti data user dan data admin maka wajib di impor
  10.  setelah berhasil di impor masuk kembali ke terminal dan jalankan perintah berikut
