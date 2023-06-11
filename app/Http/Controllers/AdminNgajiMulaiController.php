@@ -7,7 +7,7 @@
 
 	class AdminNgajiMulaiController extends \crocodicstudio\crudbooster\controllers\CBController {
 
-	    public function cbInit() {
+	public function cbInit() {
 
 			# START CONFIGURATION DO NOT REMOVE THIS LINE
 			$this->title_field = "id";
@@ -42,17 +42,17 @@
 			$this->form[] = ['label'=>'Nim','name'=>'nim','type'=>'text','validation'=>'required|min:1|max:255','width'=>'col-sm-10'];
 			$this->form[] = ['label'=>'Tanggal','name'=>'tanggal','type'=>'date','validation'=>'required|date','width'=>'col-sm-10'];
 			$this->form[] = ['label'=>'Waktu Mulai','name'=>'waktu_mulai','type'=>'time','validation'=>'required|date_format:H:i:s','width'=>'col-sm-10'];
-			$this->form[] = ['label'=>'Surah Mulai','name'=>'surah_mulai','type'=>'textarea','validation'=>'required|string|min:5|max:5000','width'=>'col-sm-10'];
+			$this->form[] = ['label'=>'Surah Mulai','name'=>'surah_mulai','type'=>'text','validation'=>'required|string|min:5|max:5000','width'=>'col-sm-10'];
 			$this->form[] = ['label'=>'Ayat Mulai','name'=>'ayat_mulai','type'=>'number','validation'=>'required|integer|min:0','width'=>'col-sm-10'];
 			# END FORM DO NOT REMOVE THIS LINE
 
 			# OLD START FORM
 			//$this->form = [];
-			//$this->form[] = ["label"=>"Nim","name"=>"nim","type"=>"text","required"=>TRUE,"validation"=>"required|min:1|max:255"];
-			//$this->form[] = ["label"=>"Tanggal","name"=>"tanggal","type"=>"date","required"=>TRUE,"validation"=>"required|date"];
-			//$this->form[] = ["label"=>"Waktu Mulai","name"=>"waktu_mulai","type"=>"time","required"=>TRUE,"validation"=>"required|date_format:H:i:s"];
-			//$this->form[] = ["label"=>"Surah Mulai","name"=>"surah_mulai","type"=>"textarea","required"=>TRUE,"validation"=>"required|string|min:5|max:5000"];
-			//$this->form[] = ["label"=>"Ayat Mulai","name"=>"ayat_mulai","type"=>"number","required"=>TRUE,"validation"=>"required|integer|min:0"];
+			//$this->form[] = ['label'=>'Nim','name'=>'nim','type'=>'text','validation'=>'required|min:1|max:255','width'=>'col-sm-10'];
+			//$this->form[] = ['label'=>'Tanggal','name'=>'tanggal','type'=>'date','validation'=>'required|date','width'=>'col-sm-10'];
+			//$this->form[] = ['label'=>'Waktu Mulai','name'=>'waktu_mulai','type'=>'time','validation'=>'required|date_format:H:i:s','width'=>'col-sm-10'];
+			//$this->form[] = ['label'=>'Surah Mulai','name'=>'surah_mulai','type'=>'textarea','validation'=>'required|string|min:5|max:5000','width'=>'col-sm-10'];
+			//$this->form[] = ['label'=>'Ayat Mulai','name'=>'ayat_mulai','type'=>'number','validation'=>'required|integer|min:0','width'=>'col-sm-10'];
 			# OLD END FORM
 
 			/* 

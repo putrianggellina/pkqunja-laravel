@@ -2,7 +2,7 @@
 
 return [
 
-    'ADMIN_PATH' => 'admin',
+    'ADMIN_PATH' => 'tampilan',
 
     /*
         To Allowed Specific User Agent Only
@@ -26,11 +26,11 @@ return [
 
     'URL_FIELDS_CANDIDATE' => 'url,link',
 
-    'UPLOAD_TYPES' => 'jpg,png,jpeg,gif,bmp,pdf,xls,xlsx,doc,docx,txt,zip,rar,7z',
+    'UPLOAD_TYPES' => 'jpg,png,jpeg,gif,bmp,pdf,xls,xlsx,doc,docx,txt,zip,rar,7z,csv',
 
     'DEFAULT_THUMBNAIL_WIDTH' => 0,
 
-    'DEFAULT_UPLOAD_MAX_SIZE' => 1000, //in KB
+    'DEFAULT_UPLOAD_MAX_SIZE' => 5000, //in KB
 
     'IMAGE_EXTENSIONS' => 'jpg,png,jpeg,gif,bmp',
 

@@ -40,16 +40,16 @@
 			$this->form = [];
 			$this->form[] = ['label'=>'Nim','name'=>'nim','type'=>'text','validation'=>'required|min:1|max:255','width'=>'col-sm-10'];
 			$this->form[] = ['label'=>'Waktu Selesai','name'=>'waktu_selesai','type'=>'time','validation'=>'required|date_format:H:i:s','width'=>'col-sm-10'];
-			$this->form[] = ['label'=>'Surah Selesai','name'=>'surah_selesai','type'=>'textarea','validation'=>'required|string|min:5|max:5000','width'=>'col-sm-10'];
+			$this->form[] = ['label'=>'Surah Selesai','name'=>'surah_selesai','type'=>'text','validation'=>'required|string|min:5|max:5000','width'=>'col-sm-10'];
 			$this->form[] = ['label'=>'Ayat Selesai','name'=>'ayat_selesai','type'=>'number','validation'=>'required|integer|min:0','width'=>'col-sm-10'];
 			# END FORM DO NOT REMOVE THIS LINE
 
 			# OLD START FORM
 			//$this->form = [];
-			//$this->form[] = ["label"=>"Nim","name"=>"nim","type"=>"text","required"=>TRUE,"validation"=>"required|min:1|max:255"];
-			//$this->form[] = ["label"=>"Waktu Selesai","name"=>"waktu_selesai","type"=>"time","required"=>TRUE,"validation"=>"required|date_format:H:i:s"];
-			//$this->form[] = ["label"=>"Surah Selesai","name"=>"surah_selesai","type"=>"textarea","required"=>TRUE,"validation"=>"required|string|min:5|max:5000"];
-			//$this->form[] = ["label"=>"Ayat Selesai","name"=>"ayat_selesai","type"=>"number","required"=>TRUE,"validation"=>"required|integer|min:0"];
+			//$this->form[] = ['label'=>'Nim','name'=>'nim','type'=>'text','validation'=>'required|min:1|max:255','width'=>'col-sm-10'];
+			//$this->form[] = ['label'=>'Waktu Selesai','name'=>'waktu_selesai','type'=>'time','validation'=>'required|date_format:H:i:s','width'=>'col-sm-10'];
+			//$this->form[] = ['label'=>'Surah Selesai','name'=>'surah_selesai','type'=>'textarea','validation'=>'required|string|min:5|max:5000','width'=>'col-sm-10'];
+			//$this->form[] = ['label'=>'Ayat Selesai','name'=>'ayat_selesai','type'=>'number','validation'=>'required|integer|min:0','width'=>'col-sm-10'];
 			# OLD END FORM
 
 			/* 
