@@ -50,9 +50,10 @@ System ini dibuat untuk mempermudah mahasiswa dalam proses mengaji sampai dengan
         php artisan key:generate
         ```
  9. setelah itu maka impor database dibawah
-
-data base: 
-data base tersebut berisikan data-data yang sebelumnya tidak ada di migrate seperti data user dan data admin maka wajib di impor
+    ```sh
+    data base:
+    ```
+    data base tersebut berisikan data-data yang sebelumnya tidak ada di migrate seperti data user dan data admin maka wajib di impor
  10.  setelah berhasil di impor masuk kembali ke terminal dan jalankan perintah berikut
          ```sh
         php artisan serve
