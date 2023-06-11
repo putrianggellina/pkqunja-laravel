@@ -20,9 +20,9 @@ System ini dibuat untuk mempermudah mahasiswa dalam proses mengaji sampai dengan
 
 ## Installation
 
-Harus menggunakan PHP versi 7.4.1 
-Harus menggunakan laravel versi 7
-Menggunakan CRUDBOOSTER
+ - Harus menggunakan PHP versi 7.4.1 
+ - Harus menggunakan laravel versi 7
+ - Menggunakan CRUDBOOSTER
 
 | Nama | Link |
 | ------ | ------ |
