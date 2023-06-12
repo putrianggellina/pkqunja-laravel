@@ -21,8 +21,8 @@
 			$this->button_edit = true;
 			$this->button_delete = true;
 			$this->button_detail = true;
-			$this->button_show = true;
-			$this->button_filter = true;
+			$this->button_show = false;
+			$this->button_filter = false;
 			$this->button_import = false;
 			$this->button_export = false;
 			$this->table = "ngaji_selesai";
