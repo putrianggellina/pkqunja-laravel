@@ -71,3 +71,5 @@ System ini dibuat untuk mempermudah mahasiswa dalam proses mengaji sampai dengan
     username : admin@gmail.com
     password : 123456
     ```
+Berikut ini adalah link prototype dari sistem yang dibuat:
+https://www.figma.com/proto/VssTElJ8uPUANlwuSMiXHB/Untitled?type=design&node-id=1-400&scaling=contain&page-id=0%3A1&starting-point-node-id=1%3A400&show-proto-sidebar=1
